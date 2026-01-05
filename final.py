@@ -1,7 +1,3 @@
-# first_postgres.py
-# This script replicates the logic from first.py but uses PostgreSQL instead of SQLite.
-# Make sure you have psycopg2 installed: pip install psycopg2
-
 import yolov5
 import cv2
 import numpy as np
@@ -20,7 +16,7 @@ import tkinter.messagebox
 
 # PostgreSQL DB connection parameters
 DB_PARAMS = {
-    'dbname': 'electronic',  # Replace with your actual database name
+    'dbname': 'electronic',  
     'user': 'postgres',
     'password': '1234',
     'host': 'localhost',
